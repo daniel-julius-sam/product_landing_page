@@ -23,9 +23,6 @@ nav{
 .container {
     border: 1px solid;
     margin: 70px;
-}
-
-#hero {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,9 +36,22 @@ nav{
     justify-content: space-between;
 }
 
+
 #email, #submit {
     margin: 10px;
 }
+
+#features {
+    align-items: flex-start;
+    justify-content: space-around;
+    
+}
+
+.grid {
+    display: flex;
+    justify-content: space-around;
+}
+
 
 
 nav a 
