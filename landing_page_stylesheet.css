@@ -56,6 +56,15 @@ nav{
     height: 125px;
     width: 80vw;
     padding: 5px;
+}
+#youtube_frame {
+    display: flex;
+    justify-content: center;
+}
+iframe {
+    width: 650px;
+    height: 300px;
+}
 
 /*.container {
     display: flex;
