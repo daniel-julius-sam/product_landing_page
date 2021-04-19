@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href='landing_page_stylesheet.css'>
+        <link rel='stylesheet' href='landing_page_stylesheet.css'>
+        <script src='https://kit.fontawesome.com/52e4571e01.js' crossorigin="anonymous"></script>
     </head>
 
     <body>
@@ -10,16 +11,15 @@
                 <div class='logo'>
                     <img id='original_trombones_logo' src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt='logo of brand'/>
                 </div>
-            
+                
                 <nav id='nav-bar'>
-                    <ul>
-                        <li><a class='nav-link' href=''>Features</a></li>
-                        <li><a class='nav-link' href=''>How It Works</a></li>
-                        <li><a class='nav-link' href=''>Pricing</a></li>
-                    </ul>
+                    <a class='nav-link' href=''>Features</a>
+                    <a class='nav-link' href=''>How It Works</a>
+                    <a class='nav-link' href=''>Pricing</a>
                 </nav>
+            
             </header>
-            <div class='container'>
+            <div class='container' id='top-bar'>
                 <section id='hero'>
                     <h2>Handcrafted, home-made masterpieces</h2>
                     <form id='form' action="https://www.freecodecamp.com/email-submit">
@@ -60,45 +60,59 @@
                             <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument. </p>
                         </div> 
                     </div>
-                </section>
+                
             
-                <div>
+                <div class='youtube_frame'>
                     <iframe src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"></iframe>
                 </div>
 
-                <div>
-                    <div>
-                        <h2>Tenor Trombone</h2>
-                        <h1>$600</h1>
-                        <p>
-                            Lorem ipsum.
-                            Lorem ipsum.
-                            Lorem ipsum dolor.
-                            Lorem ipsum.
-                        </p>
-                        <button type='submit'>SELECT</button>
+                <div class='container'>
+                    <div class='price'>
+                        <div class='trumpet'>
+                            <h2>Tenor Trombone</h2>
+                        </div>
+
+                        <div class='trumpet-body'>
+                            <h1>$600</h1> 
+                            <p>
+                                Lorem ipsum.
+                                Lorem ipsum.
+                                Lorem ipsum dolor.
+                                Lorem ipsum.
+                            </p>
+                            <button type='submit'>SELECT</button>
+                            </div>
+                        </div>
+
+                    <div class='price'>
+                        <div class='trumpet'>
+                            <h2>Bass Trombone</h2>
+                        </div>
+
+                        <div class='trumpet-body'>
+                            <h1>$900</h1>
+                            <p>Lorem ipsum.
+                                Lorem ipsum.
+                                Lorem ipsum dolor.
+                                Lorem ipsum.</p>
+                            <button type='submit'>SELECT</button>
+                        </div>
                     </div>
 
-                    <div>
-                        <h2>Bass Trombone</h2>
-                        <h1>$900</h1>
-                        <p>Lorem ipsum.
-                            Lorem ipsum.
-                            Lorem ipsum dolor.
-                            Lorem ipsum.</p>
-                        <button type='submit'>SELECT</button>
-                    </div>
-
-                    <div>
-                        <h2>Valve Trombone</h2>
-                        <h1>$1200</h1>
-                        <p>
-                            Plays similar to a Trumpet
-                            Great for Jazz Bands
-                            Lorem ipsum dolor.
-                            Lorem ipsum.
-                        </p>
-                        <button type='submit'>SELECT</button>
+                    <div class='price'>
+                        <div class='trumpet'>
+                            <h2>Valve Trombone</h2>
+                        </div>
+                        <div class='trumpet-body'>
+                            <h1>$1200</h1>
+                            <p>
+                                Plays similar to a Trumpet
+                                Great for Jazz Bands
+                                Lorem ipsum dolor.
+                                Lorem ipsum.
+                            </p>
+                            <button type='submit'>SELECT</button>
+                        </div>
                     </div>
                 </div>
 
