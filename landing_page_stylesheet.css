@@ -7,54 +7,55 @@
 header {
     display: flex;
     border: 1px solid;  
-    flex-direction: row;
     justify-content: space-between;
 }
-
-
 
 nav{
     display: flex;
     width: 50%;
-    
     justify-content: space-around;
 }
 
 .container {
-    border: 1px solid;
-    margin: 70px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    border: 1px solid; 
+    margin: 5%;
 }
 
 #form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-}
+    
 
+}
 
 #email, #submit {
     margin: 10px;
 }
 
 #features {
-    align-items: flex-start;
-    justify-content: space-around;
-    
+    margin-top: 30px;
 }
-
-.grid {
+#features .icon {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+}
+
+#features .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+
 }
 
 
-
-nav a 
 /*.container {
     display: flex;
     flex-wrap: wrap;
@@ -62,6 +63,7 @@ nav a
 justify-content: space-around;
 }
 
+    
                     <nav id='nav-bar'>
                         <ul>
                             <li><a class='nav-link' href=''>Features</a></li>
