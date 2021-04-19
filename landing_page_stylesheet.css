@@ -1,0 +1,91 @@
+#original_trombones_logo {
+    width: 300px;
+    height: 34px;
+    align-self: flex-start;
+}
+
+header {
+    display: flex;
+    border: 1px solid;  
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.container {
+    border: 1px solid; 
+    margin: 5%;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+#email, #submit {
+    margin: 10px;
+}
+
+.grid {
+    display: flex;
+}
+#features {
+    margin-top: 30px;
+}
+
+#features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+}
+
+#features .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+
+/*.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+justify-content: space-around;
+}
+
+    
+                    <nav id='nav-bar'>
+                        <ul>
+                            <li><a class='nav-link' href=''>Features</a></li>
+                            <li><a class='nav-link' href=''>How It Works</a></li>
+                            <li><a class='nav-link' href=''>Pricing</a></li>
+                        </ul>
+ 
+ 
+ 
+ 
+
+
+
+
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                        */
