@@ -33,9 +33,13 @@ nav{
     margin: 10px;
 }
 
+.grid {
+    display: flex;
+}
 #features {
     margin-top: 30px;
 }
+
 #features .icon {
     display: flex;
     align-items: center;
@@ -53,9 +57,6 @@ nav{
     width: 80vw;
     padding: 5px;
 
-}
-
-
 /*.container {
     display: flex;
     flex-wrap: wrap;
@@ -70,4 +71,21 @@ justify-content: space-around;
                             <li><a class='nav-link' href=''>How It Works</a></li>
                             <li><a class='nav-link' href=''>Pricing</a></li>
                         </ul>
- */
+ 
+ 
+ 
+ 
+
+
+
+
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                        */
