@@ -20,7 +20,7 @@ nav{
 }
 
 .container {
-    border: 1px solid; 
+    
     margin: 5%;
 }
 
@@ -76,25 +76,56 @@ iframe {
 
 }
 
-@media (max-width: 800px) {
-    #prices {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;     
-    }
-}
 .price {
     text-align: center;
     flex-basis: 0;
     flex-grow: 1;
     border: 1px solid;
     margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
 
 .price h2{
-    background-color: grey;
+    background-color: rgb(175, 29, 29);
+    margin-top: 0;
+    padding: 5px 0;
+
+    
 }
+
+.price button {
+    background-color:orange;
+    width: 80px;
+    height: 40px;
+    align-self: center;
+    border: none !important;
+    font-size: 15px;
+
+}
+
+@media (max-width: 800px) {
+    #prices {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 1000px;     
+    }
+
+    .price {
+        max-width: 300px;
+        width: 60%;
+        text-align: center;
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+}
+
+
 
 @media (min-width:900px) {
     footer {
