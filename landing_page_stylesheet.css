@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
 }
@@ -16,7 +17,40 @@ header {
 nav{
     display: flex;
     width: 50%;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    border: solid 1px red;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    
+}
+
+@media (max-width: 800px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid;  
+        justify-content: space-evenly;
+        height: 150px;
+        align-items: center;
+
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border: solid 1px red;
+        align-items: center;
+    }
+    
+    nav a {
+        text-decoration: none;
+        
+    }
+    
 }
 
 .container {
@@ -40,7 +74,8 @@ nav{
     display: flex;
 }
 #features {
-    margin-top: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #features .icon {
@@ -63,6 +98,7 @@ nav{
 #youtube_frame {
     display: flex;
     justify-content: center;
+    
 }
 iframe {
     width: 580px;
@@ -72,7 +108,9 @@ iframe {
 
 #prices {
     display: flex;
-    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
 
 }
 
@@ -85,11 +123,14 @@ iframe {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+    margin: 10px 10px;
+    min-width: 250px;
 }
 
+
+
 .price h2{
-    background-color: rgb(175, 29, 29);
+    background-color: #eee;
     margin-top: 0;
     padding: 5px 0;
 
@@ -97,13 +138,21 @@ iframe {
 }
 
 .price button {
-    background-color:orange;
+    background-color:#fc1;
     width: 80px;
     height: 40px;
     align-self: center;
     border: none !important;
     font-size: 15px;
+    margin-bottom: 10px;
 
+}
+
+@media (min-width: 1000px) {
+    .price {
+        max-width: 300px;
+        width: 30%;
+    }
 }
 
 @media (max-width: 800px) {
@@ -120,8 +169,8 @@ iframe {
         width: 60%;
         text-align: center;
         display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+        flex-direction: column;
+        justify-content: space-between;
     }
 }
 
@@ -129,7 +178,7 @@ iframe {
 
 @media (min-width:900px) {
     footer {
-        width: 80%;
+        width: 800px;
         margin: 0 auto;
         background-color: #ddd;
         margin-top: 40px;
@@ -153,6 +202,10 @@ footer ul {
 
 footer ul li{
     padding: 0 10px;
+}
+
+footer ul li a{
+    text-decoration: none;
 }
 
 footer > span {
