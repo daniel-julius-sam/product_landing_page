@@ -150,9 +150,6 @@ nav a {
         margin-bottom: 0px;
     }
 
-    #you
-
-    
 }
 #youtube_frame {
     display: flex;
@@ -188,6 +185,7 @@ iframe {
     margin: 10px 10px;
     min-width: 250px;
     border-radius: 2px;
+    
 }
 
 
@@ -233,7 +231,10 @@ iframe {
         flex-direction: column;
         justify-content: space-between;
     }
+
+    
 }
+
 
 
 footer {
