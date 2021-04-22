@@ -12,13 +12,16 @@ body {
 header {
     display: flex;  
     justify-content: space-between;
+    background-color: rgb(238,238,238);
+    position: fixed;
+    top: 0;
+    width: 100vw;
 }
 
 nav{
     display: flex;
     width: 50%;
     justify-content: space-evenly;
-    
     align-items: center;
 }
 
@@ -48,11 +51,10 @@ nav a {
         height: 70px;
     }
     
-    
-    
+    #top-bar {
+        margin-top: 150px;
+    }
 }
-
-
 
 .container {
     margin: 1%;
@@ -63,37 +65,45 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
+    margin-top: 50px;
 
 }
 
 #top-bar h2 {
-    font-size: 27px
+    font-size: 27px;
+    margin-bottom: 17px;
+    text-align: center;
 }
 
-#email, #submit {
-    margin: 10px;
-}
+
 
 #submit {
     background-color: #fc1;
     border: none !important;
-    padding: 10px;
+    padding: 5px 1.2em;
     font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    font-size: 16px;
+    
 }
 
 #email {
     width: 270px;
     height: 20px;
     padding: 3px 5px;
+    margin-top: 0px;
 }
 
 .grid {
-    display: flex;
+    display: flex;  
 }
 #features {
     margin-top: 0px;
     margin-bottom: 0px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #features .icon {
@@ -113,9 +123,42 @@ nav a {
     width: 80vw;
     padding: 5px;
 }
+
+@media (max-width: 600px) {
+    #features {
+        width: 99%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon {
+        display: none !important;
+    }
+
+    .desc {
+        text-align: center;
+    }
+    .desc p{
+        margin-top: 0px;
+    }
+
+    .desc h2{
+        margin-bottom: 0px;
+    }
+
+}
 #youtube_frame {
     display: flex;
     justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
     
     
 }
@@ -145,11 +188,12 @@ iframe {
     margin: 10px 10px;
     min-width: 250px;
     border-radius: 2px;
+    
 }
 
 
 
-.price h2{
+.price h2 {
     background-color: rgb(221,221,221);
     margin-top: 0;
     padding: 5px 0;
@@ -190,18 +234,10 @@ iframe {
         flex-direction: column;
         justify-content: space-between;
     }
+
+    
 }
 
-
-
-@media (min-width:900px) {
-    footer {
-        width: 800px;
-        margin: 0 auto;
-        background-color: #ddd;
-        margin-top: 40px;
-    }
-}
 
 
 footer {
@@ -216,6 +252,7 @@ footer ul {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
+    margin-bottom: 5px;
 }
 
 footer ul li{
@@ -224,14 +261,29 @@ footer ul li{
 
 footer ul li a{
     text-decoration: none;
+    color: black;
+    font-size: 17px
+
 }
 
 footer > span {
     display: flex;
     justify-content: flex-end;
-    font-size: 0.9em;
+    font-size: 16px;
     color: #444;
 }
+
+@media (min-width:900px) {
+    footer {
+        width: 800px;
+        margin: 0 auto;
+        background-color: #ddd;
+        margin-top: 40px;
+    }
+}
+
+
+
 /*.container {
     display: flex;
     flex-wrap: wrap;
